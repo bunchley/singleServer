@@ -13,7 +13,7 @@ variable server_port {
 
 variable "tags" {
   description = "The map of tags detailing env and project."
-  type = map()
+  type = map
   default = {
     env = "dev"
     project = "singleServer"
